@@ -51,7 +51,6 @@ public class MyServer {
                 authService.stop(); // прекращение авторизации
             }
         }
-
     }
 
     public synchronized void unsubscribe(ClientHandler client) {

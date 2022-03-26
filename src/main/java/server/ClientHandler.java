@@ -22,7 +22,6 @@ public class ClientHandler {
         try {
             ExecutorService executorService = Executors.newCachedThreadPool();
             executorService.execute(() -> {
-
             });
             executorService.shutdown();
 
