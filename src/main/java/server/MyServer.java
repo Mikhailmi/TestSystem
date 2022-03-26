@@ -30,7 +30,6 @@ public class MyServer {
         return authService;
     }
 
-
     public MyServer() {
         try (ServerSocket server = new ServerSocket(Constants.SERVER_PORT)) {
             authService = new BaseAuthService(); // инициализация авторизации
